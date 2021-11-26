@@ -21,7 +21,7 @@ personajes que lo componen y entender en qué películas estos participaron._
 
 4- Ingrese las credenciales al endpoint "login" donde recibira un token de 24hs de duracion.
 
-5- Debera ingresar las distintas categorias antes de poder ingresar personajes y/o peliculas/series.
+5- Debera ingresar los distintos generos antes de poder ingresar personajes y/o peliculas/series.
 
 ## Requerimientos técnicos
 
