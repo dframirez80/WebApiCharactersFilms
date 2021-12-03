@@ -90,7 +90,7 @@ Para especificar el término de búsqueda o filtros se especifican como parámet
 ### 7- Listado de Películas
 
 El listado muestra:
-* Imagen (url ejemplo https://localhost:44357/characters/personaje.png).
+* Imagen (url ejemplo https://localhost:44357/films/film.png).
 * Titulo.
 * Fecha de creación
 
@@ -120,7 +120,7 @@ El término de búsqueda, filtro u ordenación se especifican como parámetros d
 ### 11- Envío de emails
 
 Al registrarse en el sitio, el usuario recibe un email de confirmacion de registro disponible por los proximos 10 minutos.
-Ademas, permite reiniciar la contraseña el caso de olvidarla, para dicho caso recibira un correo con una nueva contraseña generada por un nuemro aleatorio de 8 digitos.
+Ademas, permite reiniciar la contraseña el caso de olvidarla, para dicho caso recibira un correo con una nueva contraseña generada por un numero aleatorio de 8 digitos.
 Luego de recibir la nueva contraseña, debera cambiarla por una nueva contraseña generada por el usuario.
 Los endpoints son:
 * GET  api/v1/Auth/confirm/{id}/{token}

@@ -36,9 +36,19 @@ namespace WebApiCharactersFilms
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        private const string TitleAPI = "Web API Disney";
+        private const string TitleAPI = "Web API Demo";
+        readonly string MySpecificCors = "MySpecificCors";
+
         public void ConfigureServices(IServiceCollection services) {
             //services.AddAutoMapper(typeof(Startup));
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy(name: MySpecificCors,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("*");
+                                  });
+            });
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IUsersHandler, UsersHandler>();
             services.AddScoped<ICharactersHandler, CharactersHandler>();
@@ -153,6 +163,7 @@ namespace WebApiCharactersFilms
 
             app.UseRouting();
 
+            app.UseCors(MySpecificCors);
             app.UseAuthentication();
             app.UseAuthorization();
 

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiCharactersFilms", "WebApiCharactersFilms\WebApiCharactersFilms.csproj", "{9E9B8AC7-5A46-4435-9EE8-6B5FDA1D7818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCharactersFilms", "WebApiCharactersFilms\WebApiCharactersFilms.csproj", "{9E9B8AC7-5A46-4435-9EE8-6B5FDA1D7818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiCharactersFilms.Test", "WebApiCharactersFilms.Test\WebApiCharactersFilms.Test.csproj", "{E1B6D432-0190-4F11-B4E8-FEAFBD236A43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCharactersFilms.Test", "WebApiCharactersFilms.Test\WebApiCharactersFilms.Test.csproj", "{E1B6D432-0190-4F11-B4E8-FEAFBD236A43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
